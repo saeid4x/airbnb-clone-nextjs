@@ -27,6 +27,7 @@ const ReservationPage = async () =>{
 
     return (
             <ReservationsClient
+            // @ts-ignore
               reservations={reservations}
               currentUser={currentUser}
             />
