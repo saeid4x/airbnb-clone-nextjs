@@ -21,10 +21,11 @@ export default async function getFavoriteListings() {
 
         const safeFavorites = favorites.map((favorite) =>({
             ...favorite,
-            createdAt: favorite.CreateAt.toISOString()
+            CreatedAt: favorite.CreateAt.toISOString()
         }))
 
         return safeFavorites;
+        
 
 
     } catch(error:any){

@@ -4,7 +4,7 @@ import ListingCard from "../components/listings/ListingCard";
 import { SafeListing, SafeUser } from "../types";
 
 interface FavoritesClientProps {
-    listings: SafeListing[];
+    listings: SafeListing[] ;
     currentUser?: SafeUser | null;
 }
 
