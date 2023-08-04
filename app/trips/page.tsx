@@ -21,6 +21,7 @@ const TripsPage = async () =>{
 
     return (
         <TripsClient
+        //@ts-ignore
           reservations={reservations}
           currentUser={currentUser}
           
