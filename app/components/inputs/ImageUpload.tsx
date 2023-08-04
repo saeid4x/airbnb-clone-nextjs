@@ -118,7 +118,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
             options={{maxFiles: 1 }}
         >
         {({open}) =>{
-            function handleOnClick(e){
+            function handleOnClick(e:any){
                 e.preventDefault();
                 open?.();
             }
